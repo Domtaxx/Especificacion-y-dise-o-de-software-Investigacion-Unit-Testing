@@ -37,12 +37,12 @@ namespace Unit_Testing_in_csharp
             return num1 - num2;
         }
 
-        public double Subtraccion(List<double> numbers_to_add)
+        public double Subtraccion(List<double> numbers_to_sub)
         {
             double result = 0;
-            for (int i = 0; i < numbers_to_add.Count; i++)
+            for (int i = 0; i < numbers_to_sub.Count; i++)
             {
-                result = Subtraction(result, numbers_to_add[i]);
+                result = Subtraction(result, numbers_to_sub[i]);
             }
             return result;
         }
